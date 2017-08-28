@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get files size app</title>
+    <meta name="description" content="Get file size with Multer for ExpressJS">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Submit a file to get its size in bytes.
+      </h1>
+    </header>
+
+    <main>
+      <form enctype="multipart/form-data" method="post">
+        <input type="file" class="form-control" name="file" placeholder="Select a file...">
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <a href="https://www.github.com/maxi7587">
+        Developed by Maximiliano Cruz
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+
+  </body>
+</html>

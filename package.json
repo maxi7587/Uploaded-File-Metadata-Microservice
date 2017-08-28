@@ -1,0 +1,25 @@
+{
+  "name": "uploaded-file-metadata-microservice",
+  "version": "0.0.1",
+  "description": "Get file size using Multer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "*"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/maxi7587"
+  },
+  "license": "Maximiliano Cruz",
+  "keywords": [
+    "node",
+    "multer",
+    "express"
+  ]
+}
